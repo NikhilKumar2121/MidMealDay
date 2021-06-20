@@ -1,0 +1,204 @@
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height: 115px;
+}
+#navbar ul li a {
+    margin: 3px 0px;
+
+}
+
+/* home section */
+#home {
+    padding: 0px 0px;
+    height: 395px;
+}
+#home::before {
+
+    height: 494px;
+
+}
+#home p {
+  
+    font-size: 0.93rem;
+    
+}
+
+/* services section */
+#services{
+    flex-direction: column;
+    margin: 11px 107px;
+}
+#services .box{
+margin: 7px 0px;
+padding: 10px;
+}
+#services .box img{
+    height: 50px;
+}
+
+
+
+/* clients section */
+ #client{
+    flex-wrap: wrap;
+}
+
+#client div img {
+    height: 150px;
+    margin: 0px 24px;
+    padding: 0px 20px;
+}
+
+/* utility section */
+.head{
+    font-size: 2rem;
+}
+
+.btn{
+    margin: 10px 10px;
+}
+
+.btn:hover {
+    background-color: rgb(68 105 68);
+}
+
+/* media quaries */
+@media screen and (max-width: 1100px) and (min-width: 1000px){
+#services {
+    margin: auto 300px;
+}
+#navbar ul li a {
+    padding: 0px 7px;
+}
+}
+@media screen and (max-width: 1000px) and (min-width: 900px){
+#services {
+    margin: auto 260px;
+}
+#navbar ul li a {
+    padding: 0px 7px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client div img {
+    height: 115px;
+    margin: 0px 30px;
+    padding: 0px 20px;
+}
+}
+@media screen and (max-width: 900px) and (min-width: 800px){
+#services {
+    margin: auto 220px;
+}
+#navbar ul li a {
+    padding: 0px 7px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client div img {
+    height: 110px;
+    margin: 0px 25px;
+    padding: 0px 20px;
+}
+}
+@media screen and (max-width: 800px) and (min-width: 700px){
+#services {
+    margin: auto 180px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client div img {
+    height: 105px;
+    margin: 0px 20px;
+    padding: 0px 15px;
+}
+}
+@media screen and (max-width: 700px) and (min-width: 600px){
+#services {
+    margin: auto 140px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client div img {
+    height: 100px;
+    margin: 0px 12px;
+    padding: 0px 13px;
+}
+}
+@media screen and (max-width: 600px) and (min-width: 500px){
+#services {
+    margin: auto 100px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client div img {
+    height: 75px;
+    margin: 0px 12px;
+    padding: 0px 13px;
+}
+}
+@media screen and (max-width: 500px) and (min-width: 400px){
+#services {
+    margin: auto 60px;
+}
+#home{
+    height: 383px;
+}
+#navbar ul li a {
+    padding: 0px 7px;
+}
+#home h1{
+    font-size: 29px;
+}
+
+#client div img {
+    height: 70px;
+    margin: 0px 5px;
+    padding: 0px 11px;
+}
+}
+@media screen and (max-width: 400px) and (min-width: 300px){
+#services {
+    margin: auto 40px;
+}
+#home{
+    height: 377px;
+}
+#home h1{
+    font-size: 26px;
+}
+#navbar ul li a {
+    padding: 0px 7px;
+}
+.btn {
+    margin: 11px 10px;
+    font-size: 0.8rem;
+}
+
+#services .box p {
+    font-size: 0.93rem;
+}
+#client div img {
+    height: 69px;
+    margin: 0px 3px;
+    padding: 0px 4px;
+}
+}
+@media screen and (max-width: 300px) and (min-width: 200px){
+#services {
+    margin: auto 20px;
+}
+#client div img {
+    height: 54px;
+    margin: 0px 2px;
+    padding: 0px 6px;
+}
+}
